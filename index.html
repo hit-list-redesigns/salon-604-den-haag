@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salon 604 · Kapsalon aan de Laan van Meerdervoort, Den Haag</title>
+<meta name="description" content="Salon 604: kapsalon van Diana sr. en Diana jr. aan de Laan van Meerdervoort 604, Den Haag. Knippen, kleuren, föhnen. Tram 3 stopt voor de deur, gratis parkeren. Maak online een afspraak.">
+<meta name="theme-color" content="#26121F">
+<meta property="og:title" content="Salon 604 · Kapsalon in Den Haag">
+<meta property="og:description" content="Knippen, kleuren en föhnen aan de Laan van Meerdervoort 604. Tram 3 stopt voor de deur.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1537532697849-8bf0a0b19a28?w=1200&q=80&auto=format&fit=crop">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2326121F'/%3E%3Crect x='6' y='16' width='52' height='32' fill='none' stroke='%23C8A15A' stroke-width='2.5'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-weight='700' font-size='22' fill='%23F4EFF2' text-anchor='middle'%3E604%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..700&family=Hanken+Grotesk:ital,wght@0,400..700;1,400&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1537532697849-8bf0a0b19a28?w=1100&q=78&auto=format&fit=crop">
+<style>
+:root{
+  --plum:#26121F; --plum-2:#311827; --plum-3:#47253D; --plum-deep:#1A0B15;
+  --brass:#C8A15A; --brass-hi:#E4CB94; --brass-ink:#7A5A1E; --brass-line:#B48D48;
+  --chalk:#F4EFF2; --chalk-2:#CBBEC6; --chalk-3:#A99AA4;
+  --porc:#EEEAEE; --porc-2:#E2DBE1; --ink:#26121F; --ink-2:#5B4656;
+  --serif:"Bodoni Moda", "Didot", "Bodoni 72", serif;
+  --sans:"Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --gut:clamp(20px, 4.4vw, 64px);
+  --max:1320px;
+  --spine:clamp(18px, 2.2vw, 30px);
+  --indent:clamp(64px, 7vw, 112px);
+  --ease:cubic-bezier(.16,1,.3,1);
+  --focus:var(--brass);
+  color-scheme:dark light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px;-webkit-text-size-adjust:100%;scrollbar-color:var(--brass-line) var(--plum-deep);scrollbar-width:thin}
+body{margin:0;background:var(--plum);color:var(--chalk);font:400 1.0625rem/1.6 var(--sans);font-optical-sizing:auto;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:clip}
+::selection{background:var(--brass);color:var(--plum)}
+::-webkit-scrollbar{width:11px;height:11px}
+::-webkit-scrollbar-track{background:var(--plum-deep)}
+::-webkit-scrollbar-thumb{background:var(--plum-3);border:2px solid var(--plum-deep);border-radius:0}
+::-webkit-scrollbar-thumb:hover{background:var(--brass-line)}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.22em}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.light{--focus:var(--brass-ink);background:var(--porc);color:var(--ink)}
+.light ::selection{background:var(--plum);color:var(--chalk)}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-60px;z-index:100;background:var(--brass);color:var(--plum);padding:10px 16px;font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
+svg.i{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- type ---------- */
+h1,h2,h3{font-family:var(--serif);font-weight:500;letter-spacing:-.02em;line-height:1.02;margin:0;text-wrap:balance}
+h2{font-size:clamp(2.4rem, 5.2vw, 4.4rem);font-variation-settings:"opsz" 16}
+h3{font-variation-settings:"opsz" 14}
+h3{font-size:1.5rem;letter-spacing:-.01em;line-height:1.15}
+p{margin:0;text-wrap:pretty}
+.lede{font-size:clamp(1.0625rem, 1.3vw, 1.2rem);line-height:1.6;max-width:56ch;color:var(--chalk-2)}
+.light .lede{color:var(--ink-2)}
+.num{font-variant-numeric:tabular-nums lining-nums}
+
+/* ---------- buttons ---------- */
+.btn{--bg:var(--brass);--fg:var(--plum);display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:54px;padding:0 1.6em;background:var(--bg);color:var(--fg);border:1px solid var(--bg);font:600 1rem/1 var(--sans);letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:background .35s var(--ease),color .35s var(--ease),border-color .35s var(--ease),transform .35s var(--ease)}
+.btn:hover{--bg:var(--brass-hi)}
+.btn:active{transform:translateY(1px)}
+.btn.ghost{--bg:transparent;--fg:var(--chalk);border-color:rgba(228,203,148,.55)}
+.btn.ghost:hover{border-color:var(--brass-hi);color:var(--brass-hi)}
+.light .btn.ghost{--fg:var(--ink);border-color:rgba(38,18,31,.4)}
+.light .btn.ghost:hover{border-color:var(--ink);color:var(--ink);background:rgba(38,18,31,.05)}
+.light .btn:not(.ghost){--bg:var(--plum);--fg:var(--chalk)}
+.light .btn:not(.ghost):hover{--bg:var(--plum-3)}
+.btn .i{width:1.1em;height:1.1em}
+.textlink{display:inline-flex;align-items:center;gap:.45em;font-weight:600;text-decoration:underline;text-decoration-color:rgba(200,161,90,.6)}
+.textlink:hover{text-decoration-color:currentColor}
+
+/* ---------- logo ---------- */
+.logo{display:inline-flex;text-decoration:none;color:var(--chalk)}
+.logo svg{width:clamp(104px, 9vw, 128px);height:auto;overflow:visible}
+
+/* ---------- hero ---------- */
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);min-height:clamp(660px, 100svh, 1020px);background:var(--plum)}
+.hero-main{display:flex;flex-direction:column;padding:28px var(--gut) 0;min-width:0}
+.nav{display:flex;align-items:center;gap:clamp(16px,2.4vw,36px)}
+.nav-links{display:flex;gap:clamp(12px,1.7vw,30px);margin:0 0 0 auto;padding:0;list-style:none;font-size:.95rem}
+.nav-links a{white-space:nowrap;text-decoration:none;color:var(--chalk-2);padding:8px 0;transition:color .3s}
+.nav-links a:hover{color:var(--brass-hi)}
+.lang{display:inline-flex;border:1px solid rgba(228,203,148,.4)}
+.lang button{appearance:none;background:transparent;border:0;color:var(--chalk-2);font:600 .8rem/1 var(--sans);letter-spacing:.08em;padding:9px 10px;cursor:pointer;min-width:40px;min-height:36px}
+.lang button[aria-pressed="true"]{background:var(--brass);color:var(--plum)}
+.nav .btn{min-height:44px;padding:0 1.15em;font-size:.95rem}
+.hero-copy{margin:auto 0;padding:clamp(28px,5vh,88px) 0 clamp(24px,4vh,56px);max-width:780px}
+.hero h1{font-size:clamp(2.75rem, min(6.3vw, 10.4vh), 6rem);font-weight:500;line-height:.98;letter-spacing:-.03em}
+.hero h1 em{font-style:italic;font-weight:400;color:var(--brass-hi)}
+.hero .lede{margin-top:clamp(20px,3vh,32px);max-width:52ch}
+.hero .lede strong{color:var(--chalk);font-weight:600}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:clamp(28px,4vh,40px)}
+.status{display:flex;align-items:center;flex-wrap:wrap;gap:6px 14px;margin-top:22px;font-size:.95rem;color:var(--chalk-2)}
+.status .dot{width:9px;height:9px;border-radius:50%;background:var(--chalk-3);flex:none}
+.status.open .dot{background:var(--brass);box-shadow:0 0 0 4px rgba(200,161,90,.18)}
+.status b{color:var(--chalk);font-weight:600}
+.status .sep{width:1px;height:14px;background:rgba(203,190,198,.35)}
+.busy{margin-top:10px;font-size:.88rem;color:var(--chalk-3);max-width:60ch}
+.busy a{color:var(--chalk-2)}
+
+/* route band in hero */
+.route{position:relative;display:grid;grid-template-columns:1fr auto 1fr;align-items:start;padding:22px 0 24px;border-top:1px solid rgba(203,190,198,.14);font-size:.82rem;color:var(--chalk-2)}
+.route-track{position:absolute;left:0;right:0;top:43px;height:3px;background:rgba(200,161,90,.22)}
+.route-track i{position:absolute;inset:0;background:var(--brass);transform-origin:0 50%}
+.route .x{position:relative;display:flex;flex-direction:column;gap:12px;padding-top:12px}
+.route .x::before{content:"";width:2px;height:22px;background:var(--brass);margin-top:-1px}
+.route .x:last-child{align-items:flex-end;text-align:right}
+.route .here{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:0 clamp(12px,3vw,40px)}
+.route .ring{width:44px;height:44px;border-radius:50%;border:3px solid var(--brass);background:var(--plum);display:grid;place-items:center;position:relative;z-index:1}
+.route .ring::after{content:"";width:16px;height:16px;border-radius:50%;background:var(--brass)}
+.route .here b{display:block;color:var(--chalk);font-weight:600;font-size:.95rem}
+.route small{display:block;font-size:.78rem;color:var(--chalk-3)}
+.hero-photo{position:relative;margin:0;min-height:100%;background:var(--plum-2);overflow:hidden}
+.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:52% 40%}
+
+/* ---------- spine ---------- */
+main{position:relative}
+.spine{position:absolute;top:0;bottom:0;z-index:3;width:3px;left:calc(max(0px, (100% - var(--max)) / 2) + var(--gut) + var(--spine));background:rgba(180,141,72,.28);pointer-events:none}
+.spine i{position:absolute;inset:0;background:var(--brass);transform-origin:50% 0;transform:scaleY(var(--p,0))}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gut)}
+.stop{position:relative;padding-left:var(--indent)}
+.stop-ring{position:absolute;z-index:4;left:calc(var(--spine) - 11px);top:.35em;width:25px;height:25px;border-radius:50%;border:3px solid var(--brass-line);background:var(--porc);transition:background .5s var(--ease),border-color .5s var(--ease),transform .5s var(--ease)}
+.dark .stop-ring{background:var(--plum)}
+.stop-name{position:absolute;z-index:4;left:calc(var(--spine) - 26px);top:3.1em;writing-mode:vertical-rl;transform:rotate(180deg);font:600 .78rem/1 var(--sans);letter-spacing:.06em;color:var(--brass-ink);white-space:nowrap}
+.dark .stop-name{color:var(--brass)}
+.stop-ring.on{background:var(--brass);border-color:var(--brass);transform:scale(1.08)}
+.stop-ring.end{width:33px;height:33px;left:calc(var(--spine) - 15px);box-shadow:inset 0 0 0 4px var(--plum),inset 0 0 0 8px var(--brass)}
+.stop-ring.end.on{background:var(--plum);box-shadow:inset 0 0 0 4px var(--plum),inset 0 0 0 30px var(--brass)}
+section.band{padding:clamp(88px,12vw,168px) 0}
+.dark{background:var(--plum);color:var(--chalk)}
+.deep{background:var(--plum-deep)}
+
+/* ---------- prices ---------- */
+.prices-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(40px,6vw,104px);align-items:start}
+.prices-intro .lede{margin-top:24px}
+.prices-intro figure{margin:44px 0 0;max-width:420px}
+.prices-intro figure img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 60%}
+.board{display:grid;gap:clamp(36px,4.5vw,56px)}
+.board h3{display:flex;align-items:baseline;gap:14px;font-family:var(--sans);font-size:.92rem;font-weight:700;letter-spacing:.04em;color:var(--ink);padding-bottom:12px;border-bottom:2px solid var(--ink)}
+.board ul{list-style:none;margin:0;padding:0}
+.board li{display:flex;align-items:baseline;gap:12px;padding:15px 0;border-bottom:1px solid rgba(38,18,31,.14)}
+.board .svc{font-size:1.08rem;font-weight:500}
+.board .lead{flex:1;min-width:16px;border-bottom:1px dotted rgba(38,18,31,.35);transform:translateY(-.3em)}
+.board .from{font-size:.82rem;color:var(--ink-2);font-style:italic}
+.board .pr{font-family:var(--serif);font-weight:600;font-size:1.45rem;letter-spacing:-.01em;min-width:4.2ch;text-align:right;font-variant-numeric:tabular-nums lining-nums;white-space:nowrap}
+.board-foot{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;padding-top:4px}
+.board-foot p{font-size:.92rem;color:var(--ink-2)}
+
+/* ---------- team ---------- */
+.team-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,5vw,80px);align-items:end}
+.team{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(40px,6vw,96px);margin-top:clamp(56px,7vw,96px)}
+.person{display:grid;grid-template-columns:minmax(150px,264px) minmax(0,1fr);gap:clamp(22px,2.6vw,36px);align-items:start}
+.portrait{position:relative;margin:0;overflow:hidden;background:var(--plum-2);outline:1px solid rgba(200,161,90,.45);outline-offset:6px}
+.portrait img{width:100%;aspect-ratio:300/330;object-fit:cover;object-position:50% 6%;transform:scale(1.1);transform-origin:50% 22%}
+.person h3{font-size:clamp(1.8rem,2.6vw,2.3rem)}
+.role{margin-top:8px;color:var(--brass-hi);font-weight:600;font-size:.95rem}
+.person p.bio{margin-top:16px;color:var(--chalk-2)}
+.person dl{margin:20px 0 0;display:grid;gap:6px;font-size:.95rem}
+.person dt{color:var(--chalk-3);font-size:.82rem;letter-spacing:.02em}
+.person dd{margin:0 0 6px}
+.person blockquote{margin:20px 0 0;padding:0;font-family:var(--serif);font-style:italic;font-size:1.2rem;line-height:1.35;color:var(--chalk)}
+
+/* ---------- planner ---------- */
+.planner{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.9fr) minmax(0,1fr);margin-top:clamp(48px,6vw,80px);border-top:2px solid var(--ink)}
+.planner fieldset,.planner .step{margin:0;border:0;padding:28px clamp(18px,2.4vw,36px) 32px;min-width:0}
+.planner fieldset + fieldset,.planner .step{border-left:1px solid rgba(38,18,31,.16)}
+.planner fieldset:first-child{padding-left:0}
+.planner legend,.step-title{float:left;width:100%;display:flex;align-items:center;gap:12px;padding:0;margin:0 0 20px;font:700 1rem/1.2 var(--sans);color:var(--ink)}
+.stepn{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;border:2px solid var(--ink);font:700 .85rem/1 var(--sans);flex:none}
+.planner legend + *{clear:both}
+.opt-group{clear:both;margin:0 0 18px}
+.opt-group > span{display:block;font-size:.8rem;color:var(--ink-2);margin:0 0 6px;letter-spacing:.02em}
+.opt{position:relative;display:flex;align-items:center;gap:12px;padding:10px 12px;margin:0 -12px;cursor:pointer;transition:background .25s}
+.opt:hover{background:rgba(38,18,31,.05)}
+.opt input{position:absolute;opacity:0;width:1px;height:1px}
+.box{width:20px;height:20px;border:1.5px solid var(--ink);flex:none;display:grid;place-items:center;transition:background .2s,border-color .2s}
+.opt input[type=radio] + .box{border-radius:50%}
+.opt input:checked + .box{background:var(--plum);border-color:var(--plum)}
+.opt input:checked + .box::after{content:"";width:8px;height:8px;background:var(--brass)}
+.opt input[type=radio]:checked + .box::after{border-radius:50%}
+.opt input:focus-visible + .box{outline:2px solid var(--brass-ink);outline-offset:3px}
+.opt .t{flex:1;font-size:1rem;line-height:1.3}
+.opt .t small{display:block;font-size:.84rem;color:var(--ink-2);margin-top:2px}
+.opt .p{font-family:var(--serif);font-weight:600;font-size:1.05rem;white-space:nowrap;font-variant-numeric:tabular-nums lining-nums}
+.step{background:var(--plum);color:var(--chalk);--focus:var(--brass);display:flex;flex-direction:column;align-self:start;position:sticky;top:24px}
+.step .step-title{color:var(--chalk)}
+.step .stepn{border-color:var(--brass);color:var(--brass)}
+.summary{clear:both;font-size:.98rem;color:var(--chalk-2)}
+.summary ul{list-style:none;margin:0 0 14px;padding:0}
+.summary li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid rgba(203,190,198,.16);color:var(--chalk)}
+.summary .total{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:6px}
+.summary .total b{font-family:var(--serif);font-size:1.7rem;font-weight:600;color:var(--brass-hi);font-variant-numeric:tabular-nums lining-nums}
+.summary .empty{color:var(--chalk-3)}
+.summary .who{margin-top:12px;color:var(--chalk)}
+.step-actions{display:grid;gap:10px;padding-top:22px}
+.step-actions .btn{width:100%}
+.light .step .btn:not(.ghost){--bg:var(--brass);--fg:var(--plum)}
+.light .step .btn:not(.ghost):hover{--bg:var(--brass-hi)}
+.light .step .btn.ghost{--fg:var(--chalk);border-color:rgba(228,203,148,.55)}
+.light .step .btn.ghost:hover{color:var(--brass-hi);border-color:var(--brass-hi);background:transparent}
+.pr,.opt .p,.summary .total b,.review q,.person blockquote{font-variation-settings:"opsz" 8}
+.cur{font-family:var(--sans);font-weight:500;font-size:.78em;margin-right:.08em;letter-spacing:0}
+.step .fine{font-size:.82rem;color:var(--chalk-3);margin-top:12px;line-height:1.5}
+
+/* ---------- salon ---------- */
+.salon-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(20px,2.5vw,32px);margin-top:clamp(48px,6vw,80px);align-items:end}
+.salon-grid figure{margin:0}
+.salon-grid img,.prices-intro figure img,.window img{outline:1px solid rgba(180,141,72,.55);outline-offset:6px}
+.salon-grid img{width:100%;object-fit:cover}
+.salon-grid .a img{aspect-ratio:750/330}
+.salon-grid .b img{aspect-ratio:750/330}
+.salon-grid .c{grid-column:1 / -1;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,5vw,88px);align-items:center;margin-top:clamp(48px,6vw,88px)}
+.salon-grid .c img{aspect-ratio:4/5;object-position:50% 30%}
+figcaption{font-size:.84rem;color:var(--ink-2);margin-top:10px}
+.dark figcaption{color:var(--chalk-3)}
+.reviews{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3vw,48px);margin-top:clamp(64px,8vw,112px)}
+.reviews-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 24px;margin-top:clamp(72px,9vw,128px)}
+.reviews-head h3{font-size:clamp(1.8rem,3vw,2.6rem)}
+.ph{display:inline-flex;align-items:center;gap:6px;font:700 .78rem/1.2 var(--sans);letter-spacing:.02em;padding:6px 9px;border:1px dashed currentColor;color:var(--brass-ink)}
+.dark .ph{color:var(--brass-hi)}
+.review{border-top:2px solid var(--ink);padding-top:20px}
+.review q{display:block;font-family:var(--serif);font-size:1.3rem;line-height:1.35;quotes:"“" "”"}
+.review footer{margin-top:16px;font-size:.9rem;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+
+/* ---------- hours & route ---------- */
+.route-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(40px,6vw,104px);margin-top:clamp(48px,6vw,80px);align-items:start}
+.board-plate{border:1px solid rgba(200,161,90,.5);outline:1px solid rgba(200,161,90,.22);outline-offset:5px;background:var(--plum-deep);padding:22px clamp(16px,2.2vw,28px) 10px}
+.hours{width:100%;border-collapse:collapse;font-size:1.05rem}
+.hours caption{text-align:left;font:700 .92rem/1 var(--sans);letter-spacing:.04em;padding-bottom:14px;border-bottom:2px solid var(--chalk);color:var(--chalk)}
+.hours th,.hours td{padding:15px 14px;border-bottom:1px solid rgba(203,190,198,.16);text-align:left;font-weight:400}
+.hours th{padding-left:0}
+.hours td{text-align:right;font-variant-numeric:tabular-nums lining-nums}
+.hours td.tag{width:1%;white-space:nowrap;padding-right:0}
+.hours tr.closed{color:var(--chalk-3)}
+.hours tr.today{background:var(--brass);color:var(--plum)}
+.hours tr.today th{padding-left:14px;font-weight:700}
+.hours tr.today td{font-weight:700;color:var(--plum)}
+.hours .t-today{font:700 .78rem/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:5px 7px;border:1px solid var(--plum)}
+.hours-note{margin-top:16px;font-size:.92rem;color:var(--chalk-3)}
+.addr{font-family:var(--serif);font-size:clamp(1.6rem,2.6vw,2.2rem);line-height:1.15;font-style:normal}
+.facts{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:14px}
+.facts li{display:flex;gap:14px;align-items:flex-start;color:var(--chalk-2)}
+.facts li .i{color:var(--brass);margin-top:.2em;width:1.3em;height:1.3em}
+.facts b{color:var(--chalk);font-weight:600}
+.map{margin:36px 0 0;border:1px solid rgba(200,161,90,.35);background:var(--plum-deep)}
+.map svg{display:block;width:100%;height:auto}
+.map svg text{font-family:var(--sans)}
+.map figcaption{margin:0;padding:10px 14px;border-top:1px solid rgba(200,161,90,.2)}
+.contact-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.window{margin:44px 0 0}
+.window img{width:100%;aspect-ratio:16/8;object-fit:cover;object-position:50% 45%}
+
+/* ---------- vacancy ---------- */
+.vacancy{padding:clamp(56px,7vw,88px) 0;border-top:1px solid rgba(38,18,31,.12)}
+.vac-grid{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px 48px;align-items:center}
+.vac-grid h2{font-size:clamp(1.8rem,3.2vw,2.6rem)}
+.vac-grid p{margin-top:12px;color:var(--ink-2);max-width:64ch}
+
+/* ---------- close ---------- */
+.close{padding:clamp(104px,14vw,200px) 0 clamp(96px,12vw,168px)}
+.close h2{font-size:clamp(2.8rem,7vw,6rem);max-width:12ch}
+.close h2 em{font-style:italic;font-weight:400;color:var(--brass-hi)}
+.close .lede{margin-top:28px}
+.close .cta-row{margin-top:40px}
+.close .route{max-width:620px;margin-top:clamp(56px,7vw,88px)}
+
+/* ---------- footer ---------- */
+.foot{padding:56px 0 48px;font-size:.92rem;color:var(--chalk-3);border-top:1px solid rgba(200,161,90,.25)}
+.foot-grid{display:grid;grid-template-columns:auto 1fr auto;gap:28px 56px;align-items:start}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.foot a{color:var(--chalk-2);text-decoration:none}
+.foot a:hover{color:var(--brass-hi);text-decoration:underline}
+.foot .small{grid-column:1/-1;font-size:.8rem;color:var(--chalk-3);padding-top:24px;border-top:1px solid rgba(203,190,198,.12)}
+
+/* ---------- mobile bar ---------- */
+.mbar{display:none}
+
+/* ---------- motion ---------- */
+@media (prefers-reduced-motion:no-preference){
+  .route-track i{animation:draw 1.7s var(--ease) .35s both}
+  .route .ring{animation:arrive .9s var(--ease) 1.25s both}
+  .route .x::before{animation:tick .6s var(--ease) both}
+  .route .x:first-child::before{animation-delay:.45s}
+  .route .x:last-child::before{animation-delay:1.55s}
+  @keyframes draw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  @keyframes arrive{0%{transform:scale(.4);box-shadow:0 0 0 0 rgba(200,161,90,.55)}60%{transform:scale(1.06)}100%{transform:scale(1);box-shadow:0 0 0 18px rgba(200,161,90,0)}}
+  @keyframes tick{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
+
+/* ---------- responsive ---------- */
+@media (max-width:1180px){
+  .planner .step{position:static;align-self:stretch}
+  .person{grid-template-columns:1fr}
+  .portrait{max-width:280px}
+  .planner{grid-template-columns:1fr 1fr}
+  .planner .step{grid-column:1/-1;border-left:0}
+  .planner fieldset + fieldset{border-left:1px solid rgba(38,18,31,.16)}
+}
+@media (max-width:960px){
+  .hero{grid-template-columns:1fr;min-height:0}
+  .hero-photo{min-height:0;aspect-ratio:4/3}
+  .hero-photo img{object-position:50% 35%}
+  .hero-copy{padding:56px 0 40px}
+  .nav-links{display:none}
+  .nav .lang{margin-left:auto}
+  .prices-grid,.team-head,.route-grid{grid-template-columns:1fr}
+  .prices-intro figure{display:none}
+  .reviews{grid-template-columns:1fr}
+  .salon-grid{grid-template-columns:1fr}
+  .salon-grid .c{grid-template-columns:1fr 1fr}
+}
+@media (max-width:720px){
+  :root{--indent:0px}
+  .spine,.stop-ring,.stop-name{display:none}
+  body{padding-bottom:0}
+  .foot{padding-bottom:calc(112px + env(safe-area-inset-bottom))}
+  .team{grid-template-columns:1fr}
+  .person{grid-template-columns:minmax(0,130px) minmax(0,1fr);gap:20px}
+  .planner{grid-template-columns:1fr}
+  .planner fieldset,.planner .step{padding-left:0;padding-right:0}
+  .planner fieldset + fieldset{border-left:0;border-top:1px solid rgba(38,18,31,.16)}
+  .planner .step{padding:28px 20px 28px;margin:0 calc(var(--gut) * -1)}
+  .planner .step{padding-left:var(--gut);padding-right:var(--gut)}
+  .vac-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .salon-grid .c{grid-template-columns:1fr}
+  .salon-grid .c figure:first-child{display:none}
+  .mbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:grid;grid-template-columns:1.4fr 1fr;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--plum-deep);border-top:1px solid rgba(200,161,90,.45);transform:translateY(110%);transition:transform .45s var(--ease)}
+  .mbar.show{transform:none}
+  .mbar .btn{min-height:50px;padding:0 1em}
+  .nav .btn{display:none}
+}
+@media (max-width:480px){
+  .hero-main{padding-top:20px}
+  .hero .lede{font-size:1.02rem}
+  .cta-row .btn{flex:1 1 100%}
+  .route{font-size:.78rem;grid-template-columns:1fr auto 1fr}
+  .route .here{padding:0 8px}
+  .route small{font-size:.78rem}
+  .board .svc{font-size:1rem}
+  .board .pr{font-size:1.25rem}
+  .board li{flex-wrap:wrap;row-gap:2px}
+  .hours th,.hours td{padding:13px 8px}
+  .hours th{padding-left:0}
+  .person{grid-template-columns:1fr}
+  .portrait{max-width:220px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#prijzen" data-en="Skip to content">Naar de inhoud</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3.5h3.2l1.6 4.3-2.1 1.4a11.5 11.5 0 0 0 7.1 7.1l1.4-2.1 4.3 1.6V19a1.8 1.8 0 0 1-1.9 1.8C10.9 20.3 3.7 13.1 3.2 5.4A1.8 1.8 0 0 1 5 3.5Z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-tram" viewBox="0 0 24 24"><rect x="6" y="5" width="12" height="12.5" rx="2"/><path d="M6 11h12M9 2.5h6M12 2.5V5M9 14.5h.01M15 14.5h.01M8.5 17.5 7 21M15.5 17.5 17 21"/></symbol>
+  <symbol id="i-park" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17"/><path d="M9.5 17V7h3.6a3 3 0 0 1 0 6H9.5"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="2.8"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8.5h2.5V5H14a3.5 3.5 0 0 0-3.5 3.5V11H8v3.5h2.5V21H14v-6.5h2.5L17 11h-3V9a.5.5 0 0 1 .5-.5Z"/></symbol>
+</svg>
+
+<header class="hero" id="top">
+  <div class="hero-main">
+    <nav class="nav" aria-label="Hoofdmenu" data-en-aria-label="Main menu">
+      <a class="logo" href="#top" aria-label="Salon 604, naar boven" data-en-aria-label="Salon 604, back to top">
+        <svg viewBox="0 0 150 92" role="img" aria-hidden="true">
+          <text x="44" y="22" font-family="Bodoni Moda, Didot, serif" font-size="21" font-style="italic" font-weight="400" fill="#F4EFF2" letter-spacing=".5">salon</text>
+          <rect x="22" y="30" width="122" height="56" fill="none" stroke="#C8A15A" stroke-width="2.4"/>
+          <rect x="27.5" y="35.5" width="111" height="45" fill="none" stroke="#C8A15A" stroke-width=".8"/>
+          <text x="83" y="74" font-family="Bodoni Moda, Didot, serif" font-size="40" font-weight="800" fill="#F4EFF2" text-anchor="middle" letter-spacing="-1">604</text>
+          <g fill="none" stroke="#C8A15A" stroke-width="2.2" stroke-linecap="round">
+            <circle cx="9" cy="49" r="5.6"/><circle cx="9" cy="66" r="5.6"/>
+            <path d="M14 51.5 L132 60.5" stroke-width="1.4"/>
+            <path d="M14 63.5 L52 56"/>
+          </g>
+        </svg>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#prijzen" data-en="Prices">Prijzen</a></li>
+        <li><a href="#team" data-en="Team">Team</a></li>
+        <li><a href="#salon" data-en="The salon">Salon</a></li>
+        <li><a href="#route" data-en="Hours &amp; route">Tijden &amp; route</a></li>
+      </ul>
+      <div class="lang" role="group" aria-label="Taal / Language">
+        <button type="button" data-lang="nl" aria-pressed="true" lang="nl">NL</button>
+        <button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+      </div>
+      <a class="btn" href="#boeken" data-en="Book">Boeken</a>
+    </nav>
+
+    <div class="hero-copy">
+      <h1 data-en="Your regular stop for <em>cut&nbsp;&amp;&nbsp;colour.</em>">Uw vaste halte voor <em>knippen &amp;&nbsp;kleur.</em></h1>
+      <p class="lede" data-en="Salon 604 is the hair salon of Diana sr. and Diana jr. at <strong>Laan van Meerdervoort 604</strong> in The Hague. Wash and blow-dry from <strong>€&nbsp;27,75</strong>. Tram 3 stops right outside.">Salon 604 is de kapsalon van Diana sr. en Diana jr. aan de <strong>Laan van Meerdervoort 604</strong> in Den Haag. Wassen en föhnen vanaf <strong>€&nbsp;27,75</strong>. Tram 3 stopt voor de deur.</p>
+      <div class="cta-row" id="hero-cta">
+        <a class="btn" href="#boeken"><svg class="i"><use href="#i-cal"/></svg><span data-en="Book an appointment">Afspraak maken</span></a>
+        <a class="btn ghost" href="tel:+31703452226"><svg class="i"><use href="#i-phone"/></svg><span data-en="Call 070 345 22 26">Bel 070 345 22 26</span></a>
+      </div>
+      <p class="status" id="status" aria-live="polite"><span class="dot" aria-hidden="true"></span><span id="status-text">Di t/m vr 9:00–17:30 · za 8:30–14:00</span></p>
+      <p class="busy" data-en="Heads-up: the diary is almost fully booked right now. When more room opens up, we’ll let you know by email.">Goed om te weten: de agenda zit momenteel bijna vol. Komt er meer ruimte, dan laten we het per e-mail weten.</p>
+    </div>
+
+    <div class="route" aria-label="Ligging aan de Laan van Meerdervoort" data-en-aria-label="Location on Laan van Meerdervoort">
+      <div class="route-track" aria-hidden="true"><i></i></div>
+      <div class="x"><span>Ribesstraat</span></div>
+      <div class="here">
+        <span class="ring" aria-hidden="true"></span>
+        <b>Salon 604</b>
+        <small data-en="tram 3 · Azaleaplein stop">tram 3 · halte Azaleaplein</small>
+      </div>
+      <div class="x"><span>Laan van Eik en Duinen</span></div>
+    </div>
+  </div>
+  <figure class="hero-photo">
+    <img src="https://images.unsplash.com/photo-1537532697849-8bf0a0b19a28?w=1100&q=78&auto=format&fit=crop"
+         srcset="https://images.unsplash.com/photo-1537532697849-8bf0a0b19a28?w=700&q=78&auto=format&fit=crop 700w, https://images.unsplash.com/photo-1537532697849-8bf0a0b19a28?w=1100&q=78&auto=format&fit=crop 1100w, https://images.unsplash.com/photo-1537532697849-8bf0a0b19a28?w=1600&q=76&auto=format&fit=crop 1600w"
+         sizes="(max-width: 960px) 100vw, 42vw" width="1100" height="1650"
+         alt="Kapster föhnt lang haar met een ronde borstel" data-en-alt="Stylist blow-drying long hair with a round brush" fetchpriority="high">
+  </figure>
+</header>
+
+<main id="main">
+  <div class="spine" aria-hidden="true"><i></i></div>
+
+  <!-- PRICES -->
+  <section class="band light" id="prijzen" aria-labelledby="h-prijzen">
+    <div class="wrap">
+      <div class="stop prices-grid">
+        <span class="stop-ring" aria-hidden="true"></span><span class="stop-name" aria-hidden="true" data-en="Prices">Prijzen</span>
+        <div class="prices-intro">
+          <h2 id="h-prijzen" data-en="What it costs">Wat het kost</h2>
+          <p class="lede" data-en="The full price list, plainly set out. A price marked ‘from’ is a starting price.">De volledige prijslijst, overzichtelijk op een rij. Bij ‘vanaf’ gaat het om een startprijs.</p>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1700760934268-8aa0ef52ce0a?w=840&q=76&auto=format&fit=crop" width="840" height="1050" loading="lazy" alt="Kapster knipt nat, donker haar met schaar en kam" data-en-alt="Stylist cutting wet dark hair with scissors and comb"><figcaption data-en="Mood image (Unsplash).">Sfeerbeeld (Unsplash).</figcaption>
+          </figure>
+        </div>
+        <div class="board">
+          <div>
+            <h3 data-en="Cut &amp; blow-dry">Knippen &amp; föhnen</h3>
+            <ul>
+              <li><span class="svc" data-en="Wash, cut &amp; dry">Wassen, knippen, drogen</span><span class="lead"></span><span class="pr"><span class="cur">€</span>&nbsp;41,50</span></li>
+              <li><span class="svc" data-en="Wash, cut &amp; blow-dry">Wassen, knippen, föhnen</span><span class="lead"></span><span class="from" data-en="from">vanaf</span><span class="pr"><span class="cur">€</span>&nbsp;51,–</span></li>
+              <li><span class="svc" data-en="Wash &amp; blow-dry">Wassen, föhnen</span><span class="lead"></span><span class="from" data-en="from">vanaf</span><span class="pr"><span class="cur">€</span>&nbsp;27,75</span></li>
+              <li><span class="svc" data-en="Fringe trim">Pony knippen</span><span class="lead"></span><span class="pr"><span class="cur">€</span>&nbsp;15,–</span></li>
+              <li><span class="svc" data-en="Kids’ cut (up to age 10)">Knippen t/m 10 jaar</span><span class="lead"></span><span class="pr"><span class="cur">€</span>&nbsp;34,50</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 data-en="Colour &amp; perm">Kleur &amp; permanent</h3>
+            <ul>
+              <li><span class="svc" data-en="Highlights">Highlights</span><span class="lead"></span><span class="from" data-en="from">vanaf</span><span class="pr"><span class="cur">€</span>&nbsp;33,75</span></li>
+              <li><span class="svc" data-en="Colour rinse">Kleurspoeling</span><span class="lead"></span><span class="from" data-en="from">vanaf</span><span class="pr"><span class="cur">€</span>&nbsp;38,50</span></li>
+              <li><span class="svc" data-en="Full colour">Verven</span><span class="lead"></span><span class="from" data-en="from">vanaf</span><span class="pr"><span class="cur">€</span>&nbsp;49,–</span></li>
+              <li><span class="svc" data-en="Perm">Permanent</span><span class="lead"></span><span class="from" data-en="from">vanaf</span><span class="pr"><span class="cur">€</span>&nbsp;122,–</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 data-en="Care &amp; extras">Verzorging &amp; extra’s</h3>
+            <ul>
+              <li><span class="svc" data-en="Hair mask">Haarmasker</span><span class="lead"></span><span class="pr"><span class="cur">€</span>&nbsp;13,–</span></li>
+              <li><span class="svc">Conditioner</span><span class="lead"></span><span class="pr"><span class="cur">€</span>&nbsp;7,75</span></li>
+              <li><span class="svc">Finishing product</span><span class="lead"></span><span class="pr"><span class="cur">€</span>&nbsp;4,75</span></li>
+            </ul>
+          </div>
+          <div class="board-foot">
+            <a class="btn" href="#boeken"><span data-en="Choose a treatment &amp; book">Kies een behandeling</span></a>
+            <p data-en="Prices as listed on salon604.nl.">Prijzen zoals vermeld op salon604.nl.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="band dark" id="team" aria-labelledby="h-team">
+    <div class="wrap">
+      <div class="stop team-head">
+        <span class="stop-ring" aria-hidden="true"></span><span class="stop-name" aria-hidden="true" data-en="Team">Team</span>
+        <h2 id="h-team" data-en="Diana, twice.">Twee keer Diana.</h2>
+        <p class="lede" data-en="Two stylists with the same name work at Salon 604. That’s why, in the salon, they’re known as Diana sr. and Diana jr.">Bij Salon 604 werken twee kapsters met dezelfde naam. Daarom heten ze in de salon Diana sr. en Diana jr.</p>
+      </div>
+      <div class="stop team">
+        <article class="person">
+          <figure class="portrait"><img src="https://www.salon604.nl/cms/wp-content/uploads/2022/04/Dia_sr_ml.jpeg" width="300" height="450" loading="lazy" alt="Diana sr., eigenaar van Salon 604" data-en-alt="Diana sr., owner of Salon 604"></figure>
+          <div>
+            <h3>Diana sr.</h3>
+            <p class="role" data-en="Owner · hairdresser for 38 years">Eigenaar · 38 jaar kapster</p>
+            <p class="bio" data-en="For 27 years the proud owner of Salon 604, and still doing the work she loves.">Al 27 jaar de trotse eigenaar van Salon 604, en nog altijd met hart en ziel aan het werk.</p>
+            <dl>
+              <dt data-en="Specialities">Specialiteiten</dt>
+              <dd data-en="Colouring · trendy and classic women’s cuts">Kleuren · trendy en klassieke damescoupes</dd>
+            </dl>
+            <blockquote lang="nl">“Ik ben nu 38 jaar kapster en doe het nog steeds met veel plezier.”</blockquote>
+          </div>
+        </article>
+        <article class="person">
+          <figure class="portrait"><img src="https://www.salon604.nl/cms/wp-content/uploads/2022/04/Dia_jr_lm.jpeg" width="300" height="450" loading="lazy" alt="Diana jr., kapster bij Salon 604" data-en-alt="Diana jr., stylist at Salon 604"></figure>
+          <div>
+            <h3>Diana jr.</h3>
+            <p class="role" data-en="17 years at Salon 604">17 jaar bij Salon 604</p>
+            <p class="bio" data-en="Started at the salon as an intern and has worked here with real enjoyment ever since.">Begon in de salon als stagiaire en werkt er sindsdien met veel plezier.</p>
+            <dl>
+              <dt data-en="Specialities">Specialiteiten</dt>
+              <dd data-en="Highlights · women’s and men’s cuts">Highlights · dames- en herenknippen</dd>
+            </dl>
+            <blockquote lang="nl">“Ik vind alles heel leuk en vooral de variatie in het vak.”</blockquote>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANNER -->
+  <section class="band light" id="boeken" aria-labelledby="h-boeken">
+    <div class="wrap">
+      <div class="stop">
+        <span class="stop-ring" aria-hidden="true"></span><span class="stop-name" aria-hidden="true" data-en="Booking">Boeken</span>
+        <h2 id="h-boeken" data-en="Plan your visit">Plan uw bezoek</h2>
+        <p class="lede" style="margin-top:24px" data-en="Choose what you’d like done and who you’d like to see. Then pick your time in our online diary, or call or email us.">Kies wat u wilt laten doen en bij wie. Daarna kiest u zelf een tijd in onze online agenda, of u belt of mailt ons.</p>
+        <form class="planner" id="planner" onsubmit="return false">
+          <fieldset>
+            <legend><span class="stepn">1</span><span data-en="Treatment">Behandeling</span></legend>
+            <div id="svc-list"></div>
+          </fieldset>
+          <fieldset>
+            <legend><span class="stepn">2</span><span data-en="Stylist">Kapster</span></legend>
+            <div class="opt-group">
+              <label class="opt"><input type="radio" name="who" value="sr"><span class="box"></span><span class="t">Diana sr.<small data-en="Colour, women’s cuts">Kleuren, damescoupes</small></span></label>
+              <label class="opt"><input type="radio" name="who" value="jr"><span class="box"></span><span class="t">Diana jr.<small data-en="Highlights, women’s &amp; men’s cuts">Highlights, dames &amp; heren</small></span></label>
+              <label class="opt"><input type="radio" name="who" value="any" checked><span class="box"></span><span class="t" data-en="No preference">Geen voorkeur</span></label>
+            </div>
+          </fieldset>
+          <div class="step" aria-live="polite">
+            <p class="step-title"><span class="stepn">3</span><span data-en="Your visit">Uw bezoek</span></p>
+            <div class="summary" id="summary"></div>
+            <div class="step-actions">
+              <a class="btn" href="https://salon604.maakafspraak.eu/" target="_blank" rel="noopener"><span data-en="Pick a time online">Kies een tijd online</span><svg class="i"><use href="#i-arrow"/></svg></a>
+              <a class="btn ghost" id="mailto" href="mailto:salon604@ziggo.nl"><svg class="i"><use href="#i-mail"/></svg><span data-en="Email this request">Mail deze aanvraag</span></a>
+              <a class="btn ghost" href="tel:+31703452226"><svg class="i"><use href="#i-phone"/></svg><span data-en="Call 070 345 22 26">Bel 070 345 22 26</span></a>
+            </div>
+            <p class="fine" data-en="The online diary opens in a new window; select your treatment there as well. Prices marked ‘from’ are starting prices.">De online agenda opent in een nieuw venster; kies daar ook uw behandeling. Prijzen met ‘vanaf’ zijn startprijzen.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- SALON -->
+  <section class="band light" id="salon" aria-labelledby="h-salon" style="padding-top:0">
+    <div class="wrap">
+      <div class="stop">
+        <span class="stop-ring" aria-hidden="true"></span><span class="stop-name" aria-hidden="true" data-en="Salon">Salon</span>
+        <h2 id="h-salon" data-en="Inside 604">Binnen bij 604</h2>
+        <p class="lede" style="margin-top:24px" data-en="White walls, black leather and tall mirrors along the Laan. At Salon 604 it’s all about gezelligheid, and sending clients out glowing.">Witte wanden, zwart leer en lange spiegels aan de Laan. Bij Salon 604 draait alles om gezelligheid en klanten die stralend weer naar buiten gaan.</p>
+        <div class="salon-grid">
+          <figure class="a"><img src="https://www.salon604.nl/cms/wp-content/uploads/2015/05/foto2-2.jpg" width="750" height="330" loading="lazy" alt="De werkplekken van Salon 604 met spiegels en kappersstoelen" data-en-alt="Salon 604’s styling stations with mirrors and chairs"></figure>
+          <figure class="b"><img src="https://www.salon604.nl/cms/wp-content/uploads/2015/05/foto3-1.jpg" width="750" height="330" loading="lazy" alt="Wachthoek met zwarte leren fauteuils en een schilderij" data-en-alt="Waiting corner with black leather armchairs and a painting"><figcaption data-en="The salon, photographed by Salon 604.">De salon, eigen foto’s van Salon 604.</figcaption></figure>
+          <div class="c">
+            <figure><img src="https://images.unsplash.com/photo-1554519934-e32b1629d9ee?w=760&q=74&auto=format&fit=crop" width="760" height="950" loading="lazy" alt="Lang blond haar met highlights, van achteren" data-en-alt="Long blonde hair with highlights, seen from behind"><figcaption data-en="Mood image (Unsplash), not the salon’s own work.">Sfeerbeeld (Unsplash), geen werk van de salon.</figcaption></figure>
+            <div>
+              <div class="reviews-head" style="margin-top:0">
+                <h3 data-en="What clients say">Wat klanten zeggen</h3>
+                <span class="ph" data-en="Placeholder: replace with real reviews">Placeholder: vervang door echte reviews</span>
+              </div>
+              <div class="reviews" style="grid-template-columns:1fr;margin-top:32px;gap:32px">
+                <blockquote class="review"><q data-en="[Placeholder review] Space for a real client review, e.g. from Google or Facebook.">[Voorbeeldreview] Ruimte voor een echte klantreview, bijvoorbeeld van Google of Facebook.</q><footer><span data-en="Client name">Naam klant</span><span class="ph">Placeholder</span></footer></blockquote>
+                <blockquote class="review"><q data-en="[Placeholder review] A second real review goes here, ideally about colour or highlights.">[Voorbeeldreview] Hier komt een tweede echte review, het liefst over kleuren of highlights.</q><footer><span data-en="Client name">Naam klant</span><span class="ph">Placeholder</span></footer></blockquote>
+                <blockquote class="review"><q data-en="[Placeholder rating] Google rating x,x out of 5 from xx reviews. Replace with the real score.">[Voorbeeldscore] Google-beoordeling x,x van 5 uit xx reviews. Vervang door de echte score.</q><footer><span>Google</span><span class="ph">Placeholder</span></footer></blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOURS & ROUTE -->
+  <section class="band dark" id="route" aria-labelledby="h-route">
+    <div class="wrap">
+      <div class="stop">
+        <span class="stop-ring" aria-hidden="true"></span><span class="stop-name" aria-hidden="true" data-en="Hours &amp; route">Tijden &amp; route</span>
+        <h2 id="h-route" data-en="Hours &amp; route">Tijden &amp; route</h2>
+        <div class="route-grid">
+          <div>
+            <div class="board-plate"><table class="hours" id="hours">
+              <caption data-en="Opening hours">Openingstijden</caption>
+              <tbody>
+                <tr data-d="1" class="closed"><th scope="row" data-en="Monday">Maandag</th><td class="tag"></td><td data-en="Closed">Gesloten</td></tr>
+                <tr data-d="2"><th scope="row" data-en="Tuesday">Dinsdag</th><td class="tag"></td><td>9:00 – 17:30</td></tr>
+                <tr data-d="3"><th scope="row" data-en="Wednesday">Woensdag</th><td class="tag"></td><td>9:00 – 17:30</td></tr>
+                <tr data-d="4"><th scope="row" data-en="Thursday">Donderdag</th><td class="tag"></td><td>9:00 – 17:30</td></tr>
+                <tr data-d="5"><th scope="row" data-en="Friday">Vrijdag</th><td class="tag"></td><td>9:00 – 17:30</td></tr>
+                <tr data-d="6"><th scope="row" data-en="Saturday">Zaterdag</th><td class="tag"></td><td>8:30 – 14:00</td></tr>
+                <tr data-d="0" class="closed"><th scope="row" data-en="Sunday">Zondag</th><td class="tag"></td><td data-en="Closed">Gesloten</td></tr>
+              </tbody>
+            </table></div>
+            <p class="hours-note" data-en="The diary is almost full. Can’t find a slot online? Give us a call.">De agenda zit bijna vol. Geen plek gevonden online? Bel ons gerust.</p>
+            <figure class="window">
+              <img src="https://www.salon604.nl/cms/wp-content/uploads/2015/05/foto1-1.jpg" width="750" height="330" loading="lazy" alt="Het etalageraam van Salon 604 met het logo en huisnummer 604" data-en-alt="Salon 604’s shop window with the logo and house number 604">
+              <figcaption data-en="Look out for the logo with house number 604: you can spot it from a distance.">Let op het logo met huisnummer 604: van een afstand al goed te zien.</figcaption>
+            </figure>
+          </div>
+          <div>
+            <address class="addr">Laan van Meerdervoort 604<br>2563 BN Den Haag</address>
+            <ul class="facts">
+              <li><svg class="i"><use href="#i-tram"/></svg><span data-en="<b>Tram 3 (RandstadRail)</b> stops right outside. Get off at <b>Azaleaplein</b>."><b>Tram 3 (RandstadRail)</b> stopt voor de deur. Uitstappen bij halte <b>Azaleaplein</b>.</span></li>
+              <li><svg class="i"><use href="#i-park"/></svg><span data-en="Coming by car? <b>Free parking</b> right in front of the door.">Met de auto? <b>Gratis parkeren</b> voor de deur.</span></li>
+              <li><svg class="i"><use href="#i-pin"/></svg><span data-en="Between Ribesstraat and Laan van Eik en Duinen.">Tussen de Ribesstraat en de Laan van Eik en Duinen.</span></li>
+            </ul>
+            <figure class="map">
+              <svg viewBox="0 0 560 250" role="img" aria-labelledby="map-t">
+                <title id="map-t">Schematische kaart: Salon 604 aan de Laan van Meerdervoort, tussen Ribesstraat en Laan van Eik en Duinen, met tramhalte Azaleaplein voor de deur.</title>
+                <rect x="96" y="0" width="22" height="250" fill="#311827"/>
+                <rect x="452" y="0" width="22" height="250" fill="#311827"/>
+                <rect x="0" y="104" width="560" height="44" fill="#311827"/>
+                <line x1="0" y1="126" x2="560" y2="126" stroke="#C8A15A" stroke-width="3"/>
+                <line x1="0" y1="133" x2="560" y2="133" stroke="#C8A15A" stroke-width="1" stroke-dasharray="2 6" opacity=".7"/>
+                <text x="16" y="96" fill="#CBBEC6" font-size="13" font-weight="600">Laan van Meerdervoort</text>
+                <text x="124" y="232" fill="#A99AA4" font-size="12">Ribesstraat</text>
+                <text x="446" y="232" fill="#A99AA4" font-size="12" text-anchor="end">Laan van Eik en Duinen</text>
+                <circle cx="285" cy="126" r="11" fill="#26121F" stroke="#C8A15A" stroke-width="3"/>
+                <circle cx="285" cy="126" r="4.5" fill="#C8A15A"/>
+                <text x="285" y="174" fill="#F4EFF2" font-size="12" font-weight="600" text-anchor="middle" data-en="tram 3 · Azaleaplein stop">tram 3 · halte Azaleaplein</text>
+                <rect x="250" y="34" width="70" height="40" fill="#1A0B15" stroke="#C8A15A" stroke-width="1.6"/>
+                <text x="285" y="61" fill="#F4EFF2" font-size="19" font-weight="800" text-anchor="middle" font-family="Bodoni Moda, Didot, serif">604</text>
+                <line x1="285" y1="74" x2="285" y2="104" stroke="#C8A15A" stroke-width="2"/>
+                <rect x="336" y="44" width="22" height="22" fill="none" stroke="#C8A15A" stroke-width="1.6"/>
+                <text x="347" y="60" fill="#C8A15A" font-size="14" font-weight="700" text-anchor="middle">P</text>
+                <text x="366" y="60" fill="#CBBEC6" font-size="12" data-en="free">gratis</text>
+              </svg>
+              <figcaption data-en="Schematic, not to scale.">Schematisch, niet op schaal.</figcaption>
+            </figure>
+            <div class="contact-row">
+              <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Laan+van+Meerdervoort+604%2C+2563+BN+Den+Haag" target="_blank" rel="noopener"><svg class="i"><use href="#i-pin"/></svg><span data-en="Open in Google Maps">Open in Google Maps</span></a>
+              <a class="btn ghost" href="tel:+31703452226"><svg class="i"><use href="#i-phone"/></svg><span>070 345 22 26</span></a>
+              <a class="btn ghost" href="mailto:salon604@ziggo.nl"><svg class="i"><use href="#i-mail"/></svg><span>salon604@ziggo.nl</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VACANCY -->
+  <section class="light vacancy" id="werken" aria-labelledby="h-werk">
+    <div class="wrap">
+      <div class="stop vac-grid">
+        <div>
+          <h2 id="h-werk" data-en="We’re hiring: part-time hairdresser.">Wij zoeken een parttime kapper/kapster.</h2>
+          <p data-en="Passionate about the craft and an all-rounder in cutting, colouring, styling and advice? Send your CV and cover letter, or just drop in for a coffee and an introduction.">Passie voor het vak en allround in knippen, kleuren, stylen en adviseren? Stuur je cv en motivatie, of loop gewoon even binnen voor een kop koffie en een kennismaking.</p>
+        </div>
+        <a class="btn ghost" href="mailto:salon604@ziggo.nl?subject=Sollicitatie%20kapper%2Fkapster"><svg class="i"><use href="#i-mail"/></svg><span data-en="Apply by email">Solliciteer per mail</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSE -->
+  <section class="dark close" id="afspraak" aria-labelledby="h-close">
+    <div class="wrap">
+      <div class="stop">
+        <span class="stop-ring end" aria-hidden="true"></span><span class="stop-name" aria-hidden="true" data-en="Last stop">Eindhalte</span>
+        <h2 id="h-close" data-en="Next stop: <em>your appointment.</em>">Volgende halte: <em>uw afspraak.</em></h2>
+        <p class="lede" data-en="Choose your time in the online diary, or call us Tuesday to Saturday. We’re at Laan van Meerdervoort 604, with tram 3 right outside.">Kies uw tijd in de online agenda, of bel ons van dinsdag tot en met zaterdag. U vindt ons op Laan van Meerdervoort 604, tram 3 voor de deur.</p>
+        <div class="cta-row">
+          <a class="btn" href="#boeken"><svg class="i"><use href="#i-cal"/></svg><span data-en="Book an appointment">Afspraak maken</span></a>
+          <a class="btn ghost" href="tel:+31703452226"><svg class="i"><use href="#i-phone"/></svg><span data-en="Call 070 345 22 26">Bel 070 345 22 26</span></a>
+        </div>
+        <div class="route" aria-hidden="true">
+          <div class="route-track"><i></i></div>
+          <div class="x"><span>Ribesstraat</span></div>
+          <div class="here"><span class="ring"></span><b>Salon 604</b><small data-en="tram 3 · Azaleaplein stop">tram 3 · halte Azaleaplein</small></div>
+          <div class="x"><span>Laan van Eik en Duinen</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot deep">
+  <div class="wrap foot-grid">
+    <a class="logo" href="#top" aria-label="Salon 604, naar boven" data-en-aria-label="Salon 604, back to top">
+      <svg viewBox="0 0 150 92" aria-hidden="true"><text x="44" y="22" font-family="Bodoni Moda, Didot, serif" font-size="21" font-style="italic" fill="#F4EFF2">salon</text><rect x="22" y="30" width="122" height="56" fill="none" stroke="#C8A15A" stroke-width="2.4"/><rect x="27.5" y="35.5" width="111" height="45" fill="none" stroke="#C8A15A" stroke-width=".8"/><text x="83" y="74" font-family="Bodoni Moda, Didot, serif" font-size="40" font-weight="800" fill="#F4EFF2" text-anchor="middle" letter-spacing="-1">604</text><g fill="none" stroke="#C8A15A" stroke-width="2.2" stroke-linecap="round"><circle cx="9" cy="49" r="5.6"/><circle cx="9" cy="66" r="5.6"/><path d="M14 51.5 L132 60.5" stroke-width="1.4"/><path d="M14 63.5 L52 56"/></g></svg>
+    </a>
+    <ul>
+      <li>Laan van Meerdervoort 604, 2563 BN Den Haag</li>
+      <li><a href="tel:+31703452226">070 345 22 26</a> · <a href="mailto:salon604@ziggo.nl">salon604@ziggo.nl</a></li>
+      <li><span data-en="Tue–Fri 9:00–17:30 · Sat 8:30–14:00">Di–vr 9:00–17:30 · za 8:30–14:00</span></li>
+    </ul>
+    <ul>
+      <li><a href="https://salon604.maakafspraak.eu/" target="_blank" rel="noopener" data-en="Online diary">Online agenda</a></li>
+      <li><a href="https://www.facebook.com/salon604.nl/" target="_blank" rel="noopener">Facebook</a></li>
+      <li><a href="https://www.salon604.nl/privacypolicy/" target="_blank" rel="noopener" data-en="Privacy policy">Privacybeleid</a></li>
+    </ul>
+    <p class="small"><span>© Salon 604.</span> <span data-en="Photos: Salon 604 and Unsplash (Unsplash licence). Reviews and rating shown are placeholders.">Foto’s: Salon 604 en Unsplash (Unsplash-licentie). Getoonde reviews en score zijn placeholders.</span></p>
+  </div>
+</footer>
+
+<div class="mbar" id="mbar" aria-hidden="true">
+  <a class="btn" href="#boeken" tabindex="-1"><svg class="i"><use href="#i-cal"/></svg><span data-en="Book">Afspraak maken</span></a>
+  <a class="btn ghost" href="tel:+31703452226" tabindex="-1"><svg class="i"><use href="#i-phone"/></svg><span data-en="Call">Bellen</span></a>
+</div>
+
+<script>
+(function(){
+  var SERVICES=[
+    {g:'cut',id:'wkd',nl:'Wassen, knippen, drogen',en:'Wash, cut & dry',p:41.5},
+    {g:'cut',id:'wkf',nl:'Wassen, knippen, föhnen',en:'Wash, cut & blow-dry',p:51,f:1},
+    {g:'cut',id:'wf',nl:'Wassen, föhnen',en:'Wash & blow-dry',p:27.75,f:1},
+    {g:'cut',id:'pony',nl:'Pony knippen',en:'Fringe trim',p:15},
+    {g:'cut',id:'kids',nl:'Knippen t/m 10 jaar',en:'Kids’ cut (up to age 10)',p:34.5},
+    {g:'col',id:'hl',nl:'Highlights',en:'Highlights',p:33.75,f:1},
+    {g:'col',id:'spoel',nl:'Kleurspoeling',en:'Colour rinse',p:38.5,f:1},
+    {g:'col',id:'verf',nl:'Verven',en:'Full colour',p:49,f:1},
+    {g:'col',id:'perm',nl:'Permanent',en:'Perm',p:122,f:1},
+    {g:'care',id:'mask',nl:'Haarmasker',en:'Hair mask',p:13},
+    {g:'care',id:'cond',nl:'Conditioner',en:'Conditioner',p:7.75},
+    {g:'care',id:'fin',nl:'Finishing product',en:'Finishing product',p:4.75}
+  ];
+  var GROUPS={cut:['Knippen & föhnen','Cut & blow-dry'],col:['Kleur & permanent','Colour & perm'],care:['Extra’s','Extras']};
+  var WHO={sr:'Diana sr.',jr:'Diana jr.',any:['Geen voorkeur','No preference']};
+  var lang='nl';
+  function L(nl,en){return lang==='en'?en:nl}
+  function eur(v){var s=v.toFixed(2).replace('.',',');return '<span class="cur">€</span> '+(s.slice(-3)===',00'?s.slice(0,-3)+',–':s)}
+  function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+
+  /* --- planner --- */
+  var list=document.getElementById('svc-list');
+  function renderList(){
+    var checked={};list.querySelectorAll('input:checked').forEach(function(i){checked[i.value]=1});
+    var html='';['cut','col','care'].forEach(function(g){
+      html+='<div class="opt-group" role="group" aria-label="'+esc(L(GROUPS[g][0],GROUPS[g][1]))+'"><span>'+esc(L(GROUPS[g][0],GROUPS[g][1]))+'</span>';
+      SERVICES.filter(function(s){return s.g===g}).forEach(function(s){
+        html+='<label class="opt"><input type="checkbox" name="svc" value="'+s.id+'"'+(checked[s.id]?' checked':'')+'><span class="box"></span><span class="t">'+esc(L(s.nl,s.en))+'</span><span class="p">'+(s.f?'<small style="font:italic 400 .78rem var(--sans);color:var(--ink-2)">'+L('vanaf','from')+' </small>':'')+eur(s.p)+'</span></label>';
+      });
+      html+='</div>';
+    });
+    list.innerHTML=html;
+  }
+  var sum=document.getElementById('summary'),mail=document.getElementById('mailto'),form=document.getElementById('planner');
+  function update(){
+    var picked=SERVICES.filter(function(s){return form.querySelector('input[name=svc][value="'+s.id+'"]:checked')});
+    var w=(form.querySelector('input[name=who]:checked')||{}).value||'any';
+    var whoTxt=w==='any'?L(WHO.any[0],WHO.any[1]):WHO[w];
+    var h='';
+    if(!picked.length){h='<p class="empty">'+L('Kies een of meer behandelingen; uw overzicht verschijnt hier.','Choose one or more treatments; your summary appears here.')+'</p>';}
+    else{
+      var tot=0,anyFrom=false;h+='<ul>';
+      picked.forEach(function(s){tot+=s.p;if(s.f)anyFrom=true;h+='<li><span>'+esc(L(s.nl,s.en))+'</span><span class="num">'+(s.f?L('vanaf ','from '):'')+eur(s.p)+'</span></li>'});
+      h+='</ul><p class="total"><span>'+(anyFrom?L('Indicatie, vanaf','Estimate, from'):L('Totaal','Total'))+'</span><b>'+eur(tot)+'</b></p>';
+    }
+    h+='<p class="who">'+L('Kapster: ','Stylist: ')+esc(whoTxt)+'</p>';
+    sum.innerHTML=h;
+    var body=L('Beste Salon 604,\n\nIk wil graag een afspraak maken.\n\nBehandeling: ','Dear Salon 604,\n\nI would like to book an appointment.\n\nTreatment: ')+(picked.length?picked.map(function(s){return L(s.nl,s.en)}).join(', '):'-')+L('\nKapster: ','\nStylist: ')+whoTxt+L('\nVoorkeur dag/tijd: \n\nNaam: \nTelefoon: \n','\nPreferred day/time: \n\nName: \nPhone: \n');
+    mail.href='mailto:salon604@ziggo.nl?subject='+encodeURIComponent(L('Afspraakverzoek','Appointment request'))+'&body='+encodeURIComponent(body);
+  }
+  form.addEventListener('change',update);
+
+  /* --- hours / status (Europe/Amsterdam) --- */
+  var HOURS={2:[540,1050],3:[540,1050],4:[540,1050],5:[540,1050],6:[510,840]};
+  var DAYS_NL=['zondag','maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag'],DAYS_EN=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  function nowAms(){
+    try{var p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Amsterdam',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());
+      var o={};p.forEach(function(x){o[x.type]=x.value});
+      return {d:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(o.weekday),m:(+o.hour%24)*60+(+o.minute)};
+    }catch(e){var n=new Date();return {d:n.getDay(),m:n.getHours()*60+n.getMinutes()}}
+  }
+  function hm(m){return Math.floor(m/60)+':'+('0'+m%60).slice(-2)}
+  function status(){
+    var n=nowAms(),t=HOURS[n.d],el=document.getElementById('status'),tx=document.getElementById('status-text');
+    document.querySelectorAll('#hours tr').forEach(function(r){var on=+r.dataset.d===n.d;r.classList.toggle('today',on);r.querySelector('.tag').innerHTML=on?'<span class="t-today">'+L('Vandaag','Today')+'</span>':'';});
+    var open=t&&n.m>=t[0]&&n.m<t[1];el.classList.toggle('open',!!open);
+    if(open){tx.innerHTML='<b>'+L('Nu open','Open now')+'</b> · '+L('vandaag tot ','today until ')+hm(t[1]);return}
+    if(t&&n.m<t[0]){tx.innerHTML='<b>'+L('Vandaag open','Open today')+'</b> · '+L('vanaf ','from ')+hm(t[0])+' '+L('tot','to')+' '+hm(t[1]);return}
+    for(var k=1;k<=7;k++){var d=(n.d+k)%7;if(HOURS[d]){tx.innerHTML='<b>'+L('Nu gesloten','Closed now')+'</b> · '+L('weer open ','opens ')+(k===1?L('morgen','tomorrow'):L(DAYS_NL[d],DAYS_EN[d]))+' '+hm(HOURS[d][0]);return}}
+  }
+
+  /* --- language --- */
+  function setLang(l){
+    lang=l;document.documentElement.lang=l;
+    document.querySelectorAll('[data-en]').forEach(function(el){if(el.dataset.nl===undefined)el.dataset.nl=el.innerHTML;el.innerHTML=l==='en'?el.dataset.en:el.dataset.nl});
+    [['enAlt','alt'],['enAriaLabel','aria-label']].forEach(function(a){
+      document.querySelectorAll('[data-en-'+a[1]+']').forEach(function(el){var k='nl'+a[0];if(el.dataset[k]===undefined)el.dataset[k]=el.getAttribute(a[1])||'';el.setAttribute(a[1],l==='en'?el.dataset[a[0]]:el.dataset[k])});
+    });
+    document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.lang===l?'true':'false')});
+    document.title=l==='en'?'Salon 604 · Hair salon on Laan van Meerdervoort, The Hague':'Salon 604 · Kapsalon aan de Laan van Meerdervoort, Den Haag';
+    renderList();update();status();
+    try{localStorage.setItem('s604-lang',l)}catch(e){}
+  }
+  document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.lang)})});
+  var saved=null;try{saved=localStorage.getItem('s604-lang')}catch(e){}
+  var q=new URLSearchParams(location.search).get('lang');
+  setLang(q==='en'||q==='nl'?q:(saved==='en'?'en':'nl'));
+  setInterval(status,60000);
+
+  /* --- spine: the line fills as you travel --- */
+  var main=document.getElementById('main'),fill=document.querySelector('.spine i'),rings=[].slice.call(document.querySelectorAll('.stop-ring'));
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches,ticking=false;
+  function spine(){
+    ticking=false;var vh=innerHeight,mark=vh*0.62,r=main.getBoundingClientRect();
+    if(reduce){fill.style.setProperty('--p',1);rings.forEach(function(g){g.classList.add('on')});return}
+    var p=Math.max(0,Math.min(1,(mark-r.top)/r.height));
+    if(r.bottom<=vh+2)p=1;
+    fill.style.setProperty('--p',p.toFixed(4));
+    rings.forEach(function(g){var y=g.getBoundingClientRect().top;g.classList.toggle('on',y<mark||p>=1)});
+  }
+  addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(spine)}},{passive:true});
+  addEventListener('resize',spine);spine();
+
+  /* --- mobile book/call bar --- */
+  var bar=document.getElementById('mbar'),heroCta=document.getElementById('hero-cta'),closeSec=document.getElementById('afspraak');
+  if('IntersectionObserver' in window){
+    var vis={hero:true,close:false};
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){vis[e.target===heroCta?'hero':'close']=e.isIntersecting});
+      var show=!vis.hero&&!vis.close;bar.classList.toggle('show',show);bar.setAttribute('aria-hidden',show?'false':'true');
+      bar.querySelectorAll('a').forEach(function(a){a.tabIndex=show?0:-1});
+    });io.observe(heroCta);io.observe(closeSec);
+  }
+})();
+</script>
+</body>
+</html>
